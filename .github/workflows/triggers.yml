@@ -42,7 +42,7 @@ jobs:
         run: python hola_lenguaje.py
   hola-mundo:
     if: ${{ github.event_name != 'workflow_dispatch' }}
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
